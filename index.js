@@ -29,6 +29,6 @@ const xlsx = require("xlsx");
 
     const doc = await handler.process(template, data);
 
-    await fs.writeFileSync(`./output/${item.instansi}.docx`, doc);
+    await fs.writeFileSync(`./output/${item?.no}_${item.instansi}.docx`, doc);
   });
 })();
