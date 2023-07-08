@@ -1,0 +1,17 @@
+{
+  "name": "word-dump",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "docx-templates": "^4.11.1",
+    "easy-template-x": "^3.2.0",
+    "xlsx": "^0.18.5"
+  }
+}
